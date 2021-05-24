@@ -32,6 +32,7 @@
   }
 }
 
-main {
+header, main,
+#friends-display-link {
   animation: slidein 1s linear;
 }
