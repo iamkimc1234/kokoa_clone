@@ -26,10 +26,12 @@
   border: none;
   padding: 15px 0px;
   font-size: 18px;  
-  margin-bottom: 25px;  
+  margin-bottom: 25px;
+  border-radius: 15px;
 }
 
 #login-form input::placeholder {
+  padding-left: 10px;
   color: rgba(0, 0, 0, 0.4);
 }
 
@@ -39,14 +41,14 @@
 }
 
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: var(--background-color);
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: var(--background-color);
   cursor: pointer;
   padding: 20px 0px;  
-  border-radius: 5px;  
+  border-radius: 10px;  
 }
 
 #login-form a {

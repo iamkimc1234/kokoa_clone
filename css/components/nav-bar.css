@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #f9f9fa;
+  background: var(--nav-bar-color);
   padding: 20px 50px;  
   /* i dont want to encrease the size of the box (ex)padding) */
   box-sizing: border-box;
@@ -76,4 +76,28 @@
 
 .nav__btn:last-child {
   animation-delay: 0.8s;
+}
+
+@keyframes dancingBtn {
+  0% {
+    opacity: 0.2;
+    transform: none;
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.5);
+  }
+  100%{
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.nav__btn:hover {
+  will-change: transform;
+  animation: dancingBtn 1s linear infinite;
+}
+
+.nav__btn i {
+  color: var(--icon-color);  
 }

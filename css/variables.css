@@ -1,5 +1,9 @@
 :root {
-  --yellow: #fae100;
+  --background-color: #7e9abb;
   --horizontal-space: 25px;
   --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --status-bar-color: linear-gradient(45deg, rgb(236, 211, 211), rgb(163, 163, 235));
+  --nav-bar-color: linear-gradient(45deg, rgb(236, 211, 211), rgb(163, 163, 235));
+  --icon-color: black;
+  --main-background-color: linear-gradient(rgb(163, 163, 235), rgb(236, 211, 211));
 }

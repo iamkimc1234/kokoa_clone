@@ -27,3 +27,8 @@
 .screen-header .fa-cog:hover {
   animation: rotateCog 1s linear infinite;
 }
+
+.screen-header i:not(.fa-cog):hover {
+  will-change: transform;
+  animation: dancingBtn 1s linear infinite;
+}
